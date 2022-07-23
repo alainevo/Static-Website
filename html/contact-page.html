@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="../css/contact-page.css">
+
+</head>
+<body>
+    <header>
+        <!--Logo Image-->
+        <img class="logo" src="../images/logo.jpeg" alt="Online Bookstore Logo">
+
+        <h1>Book Details</h1>
+        
+        <!--Navigation Bar-->
+        <div class="topnav">
+            <a href="../index.html">Home</a>
+            <a href="category-page.html">Self-help</a>
+            <a href="category-page.html">Science Fiction & Fantasy</a>
+            <a href="category-page.html">Science</a>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="contact-form">
+            <h1>Contact Us</h1>
+
+            <div class="contact-form-container">
+                <form method="post" onsubmit="return false">
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="dropdown">Contact purpose:</label>
+                        </div>
+                        <div class="form-field">
+                            <select required id="dropdown" name="dropdown">
+                                <option value = "Sell books" selected>I want to sell books</option>
+                                <option value = "Buy books">I want to buy books</option>
+                            </select>
+                        </div>
+                    </div>
+        
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="name">Your name:</label>
+                        </div>
+                        <div class="form-field">
+                            <input required type="text" id="name" name="name">
+                        </div>
+                    </div>
+        
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="email">Your email:</label>
+                        </div>
+                        <div class="form-field">
+                            <input required type="email" id="email" name="email">
+                        </div>
+                    </div>
+        
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="phone">Your phone:</label>
+                        </div>
+                        <div class="form-field">
+                            <input required type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+        
+                    <div class="form-row">
+                        <div class="form-label">
+                            <p>How can we contact you: </p>
+                        </div>
+                        <div class="form-field">
+                            <input required type="checkbox" id="by-email" name="contact-method" value="email">
+                            <label>By email</label>
+                            <br>
+                            <input required type="checkbox" id="by-phone" name="contact-method" value="phone">
+                            <label>By phone</label>
+                        </div>
+                    </div>
+        
+                    <div class="form-row">
+                        <div class="form-label">
+                            <p>Do you want to receive our weekly newsletter: </p>
+                        </div>
+                        <div class="form-field">
+                            <input required type="radio" id="yes" name="receive-new-letter" value="yes" checked="checked">
+                            <label>Yes</label>
+                            <input required type="radio" id="no" name="receive-new-letter" value="no">
+                            <label>No</label>
+                        </div>
+                    </div>
+        
+                    <div class="form-row">
+                        <div class="form-label">
+                        <label for="note">Note:</label>
+                        </div>
+                        <div class="form-field">
+                        <textarea cols="40" rows="10" id="note" name="note"></textarea>
+                        </div>
+                    </div>
+        
+                    <div class="form-row">
+                        <input type="submit" id="submit" value="Submit">
+                        <input type="reset" id="reset" value="Reset">
+                    </div>
+        
+        
+                </form>
+            </div>
+        </div>
+        
+
+        
+
+
+    </main>
+
+    <footer>
+        <div class="bottom-nav">
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+            <a href="#">Copyright</a>
+            <a href="../html/contact-page.html">Contact Us</a>
+        </div>
+    </footer>
+    
+</body>
+</html>

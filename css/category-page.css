@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    margin: 30px 120px 20px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 3rem;
+    color:#032633;
+}
+
+h1 {
+    color:#032633;
+}
+
+.logo {
+    width: 130px;
+    height: 70px;
+    background-color: #edc707;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #032633;
+}
+
+.topnav {
+    float: right;
+}
+
+.topnav a {
+    color: #032633;
+    margin: 0.2cm;
+}
+
+.topnav a:hover {
+    color: #edc707;
+}
+
+.subcategory {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+    margin: 30px 30px;
+    flex-direction: column;
+}
+
+.subcategory-heading {
+    text-align: center;
+}
+
+.subcategory-heading a {
+    color: #032633;
+    margin: 0.2cm;
+}
+
+.subcategory-heading a:hover {
+    color: #edc707;
+}
+
+.book {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+    margin: 50px 50px;
+}
+
+.book-box {
+	width: 220px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 4px;
+	position: relative;
+	margin: 10px 20px;
+}
+
+.book-heading {
+    text-align: center;
+}
+
+.book-image {
+    width: 200px;
+    height: 200px;
+}
+
+.book .book-box .book-heading a {
+    color: #032633;
+    margin: 0.2cm;
+}
+
+.book .book-box .book-heading a:hover {
+    color: #edc707;
+}
+
+
+footer {
+    margin: 30px 120px 30px 120px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.1rem 1.1rem;
+}
+
+.bottom-nav a {
+    color: #032633;
+    margin: 0.2cm;
+}
+
+.bottom-nav a:hover {
+    color: #edc707;
+}
+
+
+@media screen and (max-width: 960px) {
+    header {
+        flex-direction: column;
+    }
+
+    .topnav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .bottom-nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .subcategory {
+        display: flex;    
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .subcategory .book {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
