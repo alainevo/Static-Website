@@ -45,11 +45,6 @@ main {
     text-align: center;
 }
 
-textarea {
-    columns: 40;
-    rows: 10;
-}
-
 .contact-form {
     margin: 20px 300px 20px 300px;
     display: flex;    
