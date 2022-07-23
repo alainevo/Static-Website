@@ -81,7 +81,6 @@ h1 {
 	margin: 10px 20px;
 }
 
-
 .book-heading {
     text-align: center;
 }
@@ -90,7 +89,6 @@ h1 {
     width: 200px;
     height: 200px;
 }
-
 
 .book .book-box .book-heading a {
     color: #032633;
@@ -128,16 +126,6 @@ footer {
         text-align: center;
     }
 
-    footer {
-        flex-direction: column;
-    }
-
-    .bottom-nav a {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
     .category {
         display: flex;    
         align-items: center;
@@ -150,4 +138,13 @@ footer {
         flex-direction: column;
     }
 
+    footer {
+        flex-direction: column;
+    }
+
+    .bottom-nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 }

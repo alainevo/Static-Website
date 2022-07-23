@@ -102,6 +102,15 @@ footer {
         text-align: center;
     }
 
+    .contact-form {
+        margin: 0;
+    }
+
+    .contact-form .contact-form-container .form-row, .contact-form .contact-form-container h1{
+        display: flex;
+        flex-direction: column;
+    }
+
     footer {
         flex-direction: column;
     }
@@ -110,14 +119,5 @@ footer {
         display: block;
         width: 100%;
         text-align: center;
-    }
-
-    .contact-form {
-        margin: 0;
-    }
-
-    .contact-form .contact-form-container .form-row, .contact-form .contact-form-container h1{
-        display: flex;
-        flex-direction: column;
     }
 }

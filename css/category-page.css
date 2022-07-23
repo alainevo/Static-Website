@@ -129,16 +129,6 @@ footer {
         text-align: center;
     }
 
-    footer {
-        flex-direction: column;
-    }
-
-    .bottom-nav a {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-
     .subcategory {
         display: flex;    
         align-items: center;
@@ -151,4 +141,13 @@ footer {
         flex-direction: column;
     }
 
+    footer {
+        flex-direction: column;
+    }
+
+    .bottom-nav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
 }
